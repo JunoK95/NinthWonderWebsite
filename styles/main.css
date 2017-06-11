@@ -1,0 +1,197 @@
+@font-face {
+    font-family: WatchFont;
+    src:url('bree-serif.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: DescFont;
+    src:url('https://fonts.googleapis.com/css?family=ubuntu') format('woff2');
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+#overview_image {
+
+}
+
+#overview_image:hover #overview_image {
+    opacity: 0.5;
+}
+
+#overview_image:hover .middle{
+    opacity: 1;
+}
+
+div#nav{
+    text-align: center;
+}
+.navbar{
+    background-color: #F7F7F7;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-left: 8%;
+    margin-right: 8%;
+    min-width: 1024px;
+    width: 84%;
+    height: auto;
+}
+
+.navbar-header{
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-brand{
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+    font-size: 200%;
+    font-family: WatchFont;
+}
+
+body{
+    background-color: #F7F7F7;
+}
+
+.CSGOTitle{
+    color: #CFB53B;
+}
+
+.btn-Container{
+    background-color: #ddd;
+    border-color: #ccc;
+    line-height: 1.6;
+}
+
+#heartglyph{
+    line-height: 1.6;
+    top:-1%;
+}
+.title_container{
+    background-color: #FFF;
+    margin-top: -4%;
+    margin-left: 8%;
+    margin-right: 8%;
+    min-width: 1024px;
+    width: 84%;
+}
+
+.overview_title{
+    margin-top: 10%;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.overview_image{
+    opacity: 1;
+    display: block;
+    margin: auto;
+    width: 40%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.overview_title_image:hover .overview_image{
+    opacity:0.3;
+}
+
+.overview_title > .gun_type_title{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: WatchFont;
+    color: #999;
+    padding-bottom: 0;
+}
+
+.overview_title > .gun_name_title{
+    padding-top: 0;
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: WatchFont;
+}
+
+#overview_desc{
+    font-family: "Roboto", sans-serif;
+}
+
+#buttonrow1{
+    text-align: center;
+    border-color: #000;
+    border-width: thin;
+}
+
+#LastWonder{
+    font-family: WatchFont;
+    font-weight: bold;
+}
+
+#LastWonderDesc{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+#dividing-banner{
+    width:100%;
+    background-color: #FFF;
+}
+
+.feature-container{
+    background-color: #FFF;
+    margin-top: 15%;
+    margin-left: 12%;
+    margin-right: 12%;
+    padding-bottom: 15%;
+}
+
+.featurette-head{
+    font-family:"Great Vibes",cursive;
+    font-size: 20;
+}
+.feature-description-container{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 15%;
+    max-height: 160px;
+}
+
+.feature-description{
+    font-size: 16;
+    color: #777;
+    font-family: "Roboto", sans-serif;
+}
+
+.fullWidthBanner{
+    width:100%;
+    background-color: #000;
+}
+
+.FeaturesListing{
+    height:150%;
+    background-color: #000;
+    color: white;
+}
+
+.ShareBanner{
+    height: 200px;
+}
