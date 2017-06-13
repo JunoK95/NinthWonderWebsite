@@ -1,7 +1,7 @@
-@font-face {
+/*@font-face {
     font-family: WatchFont;
     src:url('bree-serif.woff2') format('woff2');
-}
+}*/
 
 @font-face {
     font-family: DescFont;
@@ -46,11 +46,15 @@ div#nav{
     background-color: #F7F7F7;
     margin-bottom: 0;
     padding-bottom: 0;
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-left: 6%;
+    margin-right: 6%;
     min-width: 1024px;
     width: 84%;
     height: auto;
+}
+
+nav.navbar.shrink {
+  min-height: 50px;
 }
 
 .navbar-header{
@@ -88,8 +92,8 @@ body{
 .title_container{
     background-color: #FFF;
     margin-top: -4%;
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-left: 6%;
+    margin-right: 6%;
     min-width: 1024px;
     width: 84%;
 }
@@ -132,7 +136,7 @@ body{
 }
 
 #overview_desc{
-    font-family: "Roboto", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #buttonrow1{
@@ -147,7 +151,7 @@ body{
 }
 
 #LastWonderDesc{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
 }
 
@@ -165,20 +169,28 @@ body{
 }
 
 .featurette-head{
-    font-family:"Great Vibes",cursive;
-    font-size: 20;
+    color: #CFB53B;
+    font-family:"Tangerine",cursive;
+    font-size: 24;
+    margin-bottom: 0;
 }
+
+.featurette-heading{
+    margin-top:0;
+    padding-top: 0;
+}
+
 .feature-description-container{
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 15%;
+    margin-left: 15%;
     margin-top: 15%;
     max-height: 160px;
 }
 
 .feature-description{
-    font-size: 16;
+    font-size: 12;
     color: #777;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Exo 2', sans-serif;
 }
 
 .fullWidthBanner{
@@ -190,6 +202,12 @@ body{
     height:150%;
     background-color: #000;
     color: white;
+}
+
+.FeaturesListing > .TextContainer{
+    padding-top: 15%;
+    margin-left: 15%;
+    margin-right:15%;
 }
 
 .ShareBanner{
